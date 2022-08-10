@@ -1,6 +1,6 @@
 import React from 'react';
 // import Styles
-import './App.css';
+import './styles/app.scss';
 // Router
 import { Routes, Route, useLocation } from 'react-router-dom';
 // import Pages
