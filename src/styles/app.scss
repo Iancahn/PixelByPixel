@@ -50,12 +50,13 @@ a {
 
 .main-nav {
     margin-top: 5px;
-
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .logo a,
 .main-nav a {
-    padding: 10px 15px;
+    padding: 10px 1rem;
     text-transform: uppercase;
     text-align: center;
     display: block;
@@ -71,11 +72,9 @@ a {
     color: $pixel-blue;
 }
 
-
-
 .header {
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     background-color: $pixel-white;
     box-shadow: rgb(94 98 119 / 20%) 0 0 20px 1px;
 }
@@ -110,7 +109,7 @@ a {
     border: none;
     outline: none;
     color: $pixel-black;
-    padding: 15px;
+    padding: 12px 0.8rem 0px 0.8rem;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
