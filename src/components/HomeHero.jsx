@@ -1,11 +1,16 @@
 import React from 'react';
 //import Images
+// import homeHero from '../img/home-website-design-services.jpg';
 
 function HomeHero() {
     return (
-        <div className="homehero">
-            <p className="upper-p">Welcome to PBP, a webdesign company dedicated to making the website design process easy.</p>
-            <h1 className="home-h1">Every great business needs a great website.</h1>
+        <div className="home-hero">
+            <div className="hero-text">
+                <div className="hero-text-wrap">
+                    <p className="upper-p">Welcome to Pixel By Pixel, a webdesign company that makes website design easy</p>
+                    <h1 className="home-h1">Every great business needs a great website.</h1>
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 // Primary fonts and colors
 
-$font-stack: futura-pt-bold, sans-serif;
+$font-stack: futura-pt, sans-serif;
+$font-stack-bold: futura-pt-bold, sans-serif;
 $pixel-blue: #0062ff;
 $pixel-blueAccent: #0846f3;
 $pixel-darkBlue: #09133c;
@@ -9,10 +10,7 @@ $pixel-black: rgb(26, 26, 26);
 $pixel-white: #fff;
 
 
-// Heading Style Starts
-
-
-// Heading Style End
+// The great reset 
 
 * {
     margin: 0;
@@ -27,9 +25,23 @@ body {
     line-height: 1.6;
 }
 
-* {
-    box-sizing: border-box;
-}
+// Heading Style Starts
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+// Heading Style End
 
 ul {
     margin: 0;
@@ -131,10 +143,24 @@ a {
 
 // Content Starts
 
-.homehero {
-    background-color: $pixel-blue;
-    height: 60vh;
+.home-hero {
+    background: url('../img/home-website-design-services.jpg');
+    height: 92vh;
     color: $pixel-white;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.hero-text-wrap {
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 2.5rem;
 }
 
 .row {
@@ -145,18 +171,35 @@ a {
     flex: 50%;
 }
 
-.herobutton {
-    width: 200px;
-    height: 100px;
-    background: #FFB6C1;
-    transition: background-color 1s ease-out 100ms
-}
-
 .herobutton:hover {
     background-color: #FF1493;
 }
 
-.upper-p {}
+.upper-p {
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 41px;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+}
+
+.home-h1 {
+    font-size: 59px;
+    line-height: 59px;
+    font-weight: 700;
+}
+
+.home-intro {
+    background: $pixel-yellow url('../img/pattern.svg') repeat-y center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.home-intro-text {
+    max-width: 1000px;
+}
 
 // Content Ends
 
