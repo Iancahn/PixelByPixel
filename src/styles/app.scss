@@ -29,7 +29,12 @@ body {
 
 h1 {}
 
-h2 {}
+h2 {
+    font-family: $font-stack-bold;
+    font-size: 2.2rem;
+    line-height: 2rem;
+    color: $pixel-black;
+}
 
 h3 {}
 
@@ -171,10 +176,6 @@ a {
     flex: 50%;
 }
 
-.herobutton:hover {
-    background-color: #FF1493;
-}
-
 .upper-p {
     text-transform: uppercase;
     font-size: 23px;
@@ -189,16 +190,58 @@ a {
     font-weight: 700;
 }
 
+section {
+    padding: 10rem 0;
+}
+
+.container {
+    max-width: 60vw;
+    margin: auto;
+}
+
 .home-intro {
     background: $pixel-yellow url('../img/pattern.svg') repeat-y center;
+}
+
+.home-container {
+    margin: auto;
     display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 10rem;
+    align-items: center;
+    flex-direction: column;
 }
 
 .home-intro-text {
-    max-width: 1000px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    max-width: 52vw;
+}
+
+.intro-button {
+    margin-top: 2rem;
+    padding: 1.5rem 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid $pixel-black;
+    transition: 0.3s;
+}
+
+.intro-button:hover {
+    background-color: $pixel-white;
+}
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.grid-article {
+    width: calc((100% - 60px) / 3);
+    flex: 0 1 calc((100% - 60px) / 3);
+    margin-right: 30px;
 }
 
 // Content Ends

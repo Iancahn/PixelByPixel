@@ -16,7 +16,6 @@ function Navbar() {
                             <a href="#">Month to Month</a>
                             <a href="#">Website Design</a>
                             <a href="#">Graphic Design</a>
-                            <a href="#">Web Development</a>
                         </div>
                     </div>
                     <li><a href="#">About Us</a></li>
