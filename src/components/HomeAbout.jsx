@@ -18,8 +18,8 @@ function HomeAbout() {
                             It's the very first interaction potential customers has with your company.</p>
                     </div>
                     <div className="column">
-                        <p>Your website has the potential to set you apart from your competitors, both in the design and search engine ranking aspect.
-                            It's for this reason alone that we  when mThe Schwab Foundation has acknowledged social innovators as a new kind of leader – values-driven, inclusive, entrepreneurial individuals who develop sustainable new models across businesses, social development and environmental initiatives.</p>
+                        <p>With this fact in mind, we have dedicated the past 8 years to master website design, graphic design, SEO and other digital marketing services.
+                            These vital skills helps us design websites that not only looks great, but also drives real results.</p>
                     </div>
                 </div>
             </div>
