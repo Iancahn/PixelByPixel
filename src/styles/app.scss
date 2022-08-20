@@ -6,7 +6,7 @@ $pixel-blue: #0062ff;
 $pixel-blueAccent: #0846f3;
 $pixel-darkBlue: #09133c;
 $pixel-yellow: #ffc801;
-$pixel-black: rgb(26, 26, 26);
+$pixel-black: #0a0a0a;
 $pixel-white: #fff;
 
 
@@ -34,12 +34,19 @@ section {
     margin: auto;
 }
 
+.container2 {
+    max-width: 64vw;
+    margin: auto;
+}
+
 .row {
     display: flex;
 }
 
 .column {
+    float: left;
     flex: 50%;
+    padding: 1rem 2rem 1rem 0rem;
 }
 
 /* Clear floats after the columns */
@@ -98,8 +105,7 @@ h6 {}
 p {
     font-family: $font-stack;
     font-size: 1.43rem;
-    line-height: 2rem;
-
+    line-height: 1.8rem;
 }
 
 // Heading Style End
@@ -115,9 +121,6 @@ ul {
 
 a {
     color: $pixel-black;
-}
-
-a {
     text-decoration: none;
 }
 
@@ -308,12 +311,37 @@ a {
 
 .portfolio-column {
     padding: 1.8rem;
+    max-width: 25vw;
+}
+
+.portfolio-column-div1>img {
+    max-width: 18vw;
+    padding-bottom: 0.5rem;
+}
+
+.rem-spacing {
+    margin-top: 4rem;
+}
+
+.portfolio-column-div1,
+.portfolio-column-div2 {
+    margin-bottom: 4rem;
+}
+
+.portfolio-column-div2>img {
+    max-width: 18vw;
+    padding-bottom: 0.5rem;
 }
 
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 160px;
+}
+
+.small-project-text {
+    padding-top: 2px;
+    font-size: 1rem;
 }
 
 
