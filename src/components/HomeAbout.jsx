@@ -8,7 +8,7 @@ import React from 'react';
 
 function HomeAbout() {
     return (
-        <section className="home-services">
+        <section className="home-about">
             <div className="container">
                 <h2>About Us:</h2>
                 <div className="service-grid">
