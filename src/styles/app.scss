@@ -25,15 +25,47 @@ body {
     line-height: 1.6;
 }
 
+section {
+    padding: 10rem 0;
+}
+
+.container {
+    max-width: 60vw;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.column-three {
+    float: left;
+    width: 33.33%
+}
+
+footer {
+    color: $pixel-white;
+    padding: 5rem 0;
+    background-color: $pixel-darkBlue;
+}
+
 // Heading Style Starts
 
-h1 {}
+h1 {
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
 
 h2 {
     font-family: $font-stack-bold;
-    font-size: 2.2rem;
     line-height: 2rem;
-    color: $pixel-black;
+    font-size: 1.875rem;
+    font-weight: 700;
 }
 
 h3 {}
@@ -48,18 +80,15 @@ p {}
 
 // Heading Style End
 
+
+// Navbar Starts
+
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-h1 {
-    font-size: 2rem;
-}
-
-h2,
-h3,
 a {
     color: $pixel-black;
 }
@@ -146,6 +175,10 @@ a {
 
 // Navbar ends
 
+.white-font {
+    color: $pixel-white;
+}
+
 // Content Starts
 
 .home-hero {
@@ -163,17 +196,9 @@ a {
 }
 
 .hero-text-wrap {
-    max-width: 1100px;
+    max-width: 60vw;
     margin: auto;
     padding-bottom: 2.5rem;
-}
-
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 50%;
 }
 
 .upper-p {
@@ -188,15 +213,6 @@ a {
     font-size: 59px;
     line-height: 59px;
     font-weight: 700;
-}
-
-section {
-    padding: 10rem 0;
-}
-
-.container {
-    max-width: 60vw;
-    margin: auto;
 }
 
 .home-intro {
@@ -244,6 +260,10 @@ section {
     margin-right: 30px;
 }
 
+.home-work {
+    background-color: $pixel-black;
+}
+
 // Content Ends
 
 
@@ -276,5 +296,4 @@ section {
         flex-direction: row;
         justify-content: space-between;
     }
-
 }

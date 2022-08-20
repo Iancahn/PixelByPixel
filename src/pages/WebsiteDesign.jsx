@@ -1,6 +1,6 @@
 import React from 'react';
 
-function WordpressWebsites() {
+function WebsiteDesign() {
     return (
         <div>
             <h2>Test</h2>
@@ -8,4 +8,4 @@ function WordpressWebsites() {
     )
 }
 
-export default WordpressWebsites;
+export default WebsiteDesign;
