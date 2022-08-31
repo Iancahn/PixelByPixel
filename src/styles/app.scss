@@ -26,7 +26,7 @@ body {
 }
 
 section {
-    padding: 10rem 0;
+    padding: 10em 0;
 }
 
 .container {
@@ -46,7 +46,7 @@ section {
 .column {
     float: left;
     flex: 50%;
-    padding: 1rem 2rem 1rem 0rem;
+    padding: 1em 2em 1em 0em;
 }
 
 /* Clear floats after the columns */
@@ -71,8 +71,9 @@ section {
 
 footer {
     color: $pixel-white;
-    padding: 5rem 0;
+    padding: 5em 0;
     background-color: $pixel-darkBlue;
+    border-top: 15px solid $pixel-yellow;
 }
 
 // Heading Style Starts
@@ -126,13 +127,13 @@ a {
 
 .logo {
     margin: 0;
-    font-size: 1.45em;
+    font-size: 1.45rem;
 }
 
 .main-nav {
     margin-top: 5px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .logo a,
@@ -153,11 +154,16 @@ a {
     color: $pixel-blue;
 }
 
-.header {
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+header {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     background-color: $pixel-white;
     box-shadow: rgb(94 98 119 / 20%) 0 0 20px 1px;
+}
+
+.service-header {
+    min-height: 70vh;
+    background-color: #0846f3;
 }
 
 .dropdown-content {
@@ -193,7 +199,7 @@ a {
     border: none;
     outline: none;
     color: $pixel-black;
-    padding: 12px 0.8rem 0px 0.8rem;
+    padding: 12px 0.8em 0px 0.8em;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -219,13 +225,13 @@ a {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-top: 4rem;
+    padding-top: 4em;
 }
 
 .hero-text-wrap {
     max-width: 60vw;
     margin: auto;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2.5em;
 }
 
 .upper-p {
@@ -233,7 +239,7 @@ a {
     font-size: 23px;
     line-height: 41px;
     font-weight: 300;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.5em;
 }
 
 .home-h1 {
@@ -262,9 +268,9 @@ a {
 }
 
 .intro-button {
-    margin-top: 2rem;
-    padding: 1.5rem 3rem;
-    font-size: 1rem;
+    margin-top: 2em;
+    padding: 1.5em 3em;
+    font-size: 1em;
     font-weight: 700;
     background-color: transparent;
     text-transform: uppercase;
@@ -278,7 +284,7 @@ a {
 
 .work-container {
     display: flex;
-    padding-top: 2.5rem;
+    padding-top: 2.5em;
 }
 
 .work-block {
@@ -297,7 +303,7 @@ a {
 }
 
 .work-block-text {
-    padding: 1.5rem 2rem 2rem 2rem;
+    padding: 1.5em 2em 2em 2em;
 }
 
 .home-work {
@@ -310,27 +316,27 @@ a {
 }
 
 .portfolio-column {
-    padding: 1.8rem;
+    padding: 1.8em;
     max-width: 25vw;
 }
 
 .portfolio-column-div1>img {
     max-width: 18vw;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.5em;
 }
 
 .rem-spacing {
-    margin-top: 4rem;
+    margin-top: 4em;
 }
 
 .portfolio-column-div1,
 .portfolio-column-div2 {
-    margin-bottom: 4rem;
+    margin-bottom: 4em;
 }
 
 .portfolio-column-div2>img {
     max-width: 18vw;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.5em;
 }
 
 .sticky {

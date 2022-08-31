@@ -14,7 +14,7 @@ function HomeAbout() {
                 <div className="row">
                     <div className="column">
                         <p>Since we first started designing websites way back in early 2014,
-                            we understood that a companies website represents much more than just some online banner.
+                            we understood that a company's website represents much more than just being some online banner.
                             It's the very first interaction potential customers has with your company.</p>
                     </div>
                     <div className="column">

@@ -1,11 +1,12 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
-        <nav>
+        < header >
             {/* Add lottie animation logo at later stage */}
-            <header class="header">
-                {/* <h1 class="logo"><a href="#">Flexbox</a></h1>
+            <h1 class="logo"><a href="#">Flexbox</a></h1>
+            <nav>
                 <ul class="main-nav">
                     <li><a href="#">Home</a></li>
                     <div className="dropdown">
@@ -20,9 +21,9 @@ function Navbar() {
                     </div>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
-                </ul> */}
-            </header>
-        </nav>
+                </ul>
+            </nav>
+        </header >
     )
 }
 

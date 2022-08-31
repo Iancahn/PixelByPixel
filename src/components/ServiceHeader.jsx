@@ -6,12 +6,12 @@ import React from 'react';
 // import images
 
 
-function ContactUs() {
+function ServiceHeader(props) {
     return (
-        <div>
+        <div className="service-header">
             <h2>hi</h2>
         </div>
     )
 }
 
-export default ContactUs;
+export default ServiceHeader;
