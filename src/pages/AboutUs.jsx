@@ -10,7 +10,7 @@ import ServiceHeader from '../components/ServiceHeader';
 
 function AboutUs() {
     return (
-        <div>
+        <div className="about-us-header">
             <ServiceHeader title="This is the About Us title" subheader="This is the subheader" />
         </div>
     )
