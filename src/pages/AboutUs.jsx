@@ -9,7 +9,7 @@ import React from 'react';
 function AboutUs() {
     return (
         <div>
-            <h2>hi</h2>
+            <h2>About Page</h2>
         </div>
     )
 }

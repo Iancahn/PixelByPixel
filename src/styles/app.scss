@@ -138,6 +138,7 @@ a {
 
 .logo a,
 .main-nav a {
+    font-size: 5rem;
     padding: 10px 1rem;
     text-transform: uppercase;
     text-align: center;
@@ -146,7 +147,7 @@ a {
 
 .main-nav a {
     color: $pixel-black;
-    font-size: .99em;
+    font-size: 1.3rem;
     font-weight: bolder;
 }
 
@@ -159,6 +160,8 @@ header {
     padding-bottom: 0.8em;
     background-color: $pixel-white;
     box-shadow: rgb(94 98 119 / 20%) 0 0 20px 1px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .service-header {

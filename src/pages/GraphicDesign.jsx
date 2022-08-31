@@ -3,7 +3,7 @@ import React from 'react';
 function GraphicDesign() {
     return (
         <div>
-            <h2>Test</h2>
+            <h2>Graphic Design</h2>
         </div>
     )
 }
