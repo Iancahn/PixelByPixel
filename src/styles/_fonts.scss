@@ -1,0 +1,42 @@
+// Font Styling Starts
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: $font-stack-bold;
+    line-height: 2.8rem;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: $font-stack-bold;
+    font-size: 1.375rem;
+    margin-top: 14px;
+}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {
+    font-family: $font-stack;
+    font-size: 1.43rem;
+    line-height: 1.8rem;
+}
+
+.white-font {
+    color: $pixel-white;
+}
+
+.service-title {
+    color: green;
+}
+
+// Font Styling End

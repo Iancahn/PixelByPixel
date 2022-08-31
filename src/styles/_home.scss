@@ -1,0 +1,135 @@
+.home-hero {
+    background: url('../img/home-website-design-services.jpg');
+    height: 92vh;
+    color: $pixel-white;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 4em;
+}
+
+.hero-text-wrap {
+    max-width: 60vw;
+    margin: auto;
+    padding-bottom: 2.5em;
+}
+
+.upper-p {
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 41px;
+    font-weight: 300;
+    padding-bottom: 0.5em;
+}
+
+.home-h1 {
+    font-size: 59px;
+    line-height: 59px;
+    font-weight: 700;
+}
+
+.home-intro {
+    background: $pixel-yellow url('../img/pattern.svg') repeat-y center;
+}
+
+.home-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home-intro-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    text-align: center;
+    max-width: 52vw;
+}
+
+.intro-button {
+    margin-top: 2em;
+    padding: 1.5em 3em;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid $pixel-black;
+    transition: 0.3s;
+}
+
+.intro-button:hover {
+    background-color: $pixel-white;
+}
+
+.work-container {
+    display: flex;
+    padding-top: 2.5em;
+}
+
+.work-block {
+    display: block;
+    width: 19vw;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 21%);
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.work-block img {
+    width: 19vw;
+    object-fit: cover;
+    border-bottom: $pixel-yellow 10px solid;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.work-block-text {
+    padding: 1.5em 2em 2em 2em;
+}
+
+.home-work {
+    background-color: $pixel-black;
+    // padding-bottom: 16rem;
+}
+
+.portfolio-work {
+    display: flex;
+}
+
+.portfolio-column {
+    padding: 1.8em;
+    max-width: 25vw;
+}
+
+.portfolio-column-div1>img {
+    max-width: 18vw;
+    padding-bottom: 0.5em;
+}
+
+.rem-spacing {
+    margin-top: 4em;
+}
+
+.portfolio-column-div1,
+.portfolio-column-div2 {
+    margin-bottom: 4em;
+}
+
+.portfolio-column-div2>img {
+    max-width: 18vw;
+    padding-bottom: 0.5em;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 160px;
+}
+
+.small-project-text {
+    padding-top: 2px;
+    font-size: 1rem;
+}

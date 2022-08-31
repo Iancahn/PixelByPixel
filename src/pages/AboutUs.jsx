@@ -1,4 +1,6 @@
 import React from 'react';
+// import components
+import ServiceHeader from '../components/ServiceHeader';
 // import Animation
 // import { motion } from "framer-motion";
 // import components
@@ -9,7 +11,7 @@ import React from 'react';
 function AboutUs() {
     return (
         <div>
-            <h2>About Page</h2>
+            <ServiceHeader title="This is the About Us title" subheader="This is the subheader" />
         </div>
     )
 }

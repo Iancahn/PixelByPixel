@@ -1,9 +1,11 @@
 import React from 'react';
+// import components
+import ServiceHeader from '../components/ServiceHeader';
 
-function WebsiteDesign() {
+function WebsiteDesign(props) {
     return (
-        <div>
-            <h2>WebsiteDesign</h2>
+        <div className="website-design-header">
+            <ServiceHeader title="This is the Month2Month title" subheader="This is the subheader" />
         </div>
     )
 }

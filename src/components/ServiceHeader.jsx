@@ -9,7 +9,10 @@ import React from 'react';
 function ServiceHeader(props) {
     return (
         <div className="service-header">
-            <h2>hi</h2>
+            <div>
+                <h1 className="service-title">{props.title}</h1>
+                <p className="sub-header">{props.subheader}</p>
+            </div>
         </div>
     )
 }

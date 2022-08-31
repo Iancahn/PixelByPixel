@@ -1,0 +1,93 @@
+// Navbar Starts
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: $pixel-black;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.45rem;
+}
+
+.main-nav {
+    margin-top: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.logo a,
+.main-nav a {
+    font-size: 5rem;
+    padding: 10px 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: $pixel-black;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.main-nav a:hover {
+    color: $pixel-blue;
+}
+
+header {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    background-color: $pixel-white;
+    box-shadow: rgb(94 98 119 / 20%) 0 0 20px 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $pixel-white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 1rem;
+    font-size: 0.95rem;
+}
+
+.dropdown-content a:hover {
+    background-color: $pixel-white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown .dropbtn {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: $pixel-black;
+    padding: 12px 0.8em 0px 0.8em;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-weight: bolder;
+}
+
+// Navbar ends
