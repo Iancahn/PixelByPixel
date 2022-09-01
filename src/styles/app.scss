@@ -29,6 +29,20 @@ $pixel-white: #fff;
     box-sizing: border-box;
 }
 
+.call-to-action-button {
+    margin-top: 2em;
+    padding: 1.5em 3em;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid $pixel-black;
+    transition: 0.3s;
+}
+
+.call-to-action-button:hover {
+    background-color: $pixel-white;
+}
+
 body {
     background-color: $pixel-white;
     font: 100% $font-stack;
@@ -38,6 +52,15 @@ body {
 
 section {
     padding: 10em 0;
+}
+
+.call-to-action {
+    background-color: orange;
+    padding: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container {

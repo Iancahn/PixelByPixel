@@ -1,23 +1,23 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+// import FontAwesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
     return (
         < header >
             {/* Add lottie animation logo at later stage */}
             <NavLink className="nav-link" to="/">
-                <h1 class="logo">PixelByPixel</h1>
+                <h1 className="logo">PixelByPixel</h1>
             </NavLink>
             <nav>
                 <ul class="main-nav">
-                    <NavLink className="nav-link" to="/">
+                    <li><NavLink className="nav-link" to="/">
                         Home
-                    </NavLink>
-                    <div className="dropdown">
-                        <button className="dropbtn">OUR SERVICES
-                            <i className="fa fa-caret-down"></i>
-                        </button>
-                        <div className="dropdown-content">
+                    </NavLink></li>
+                    <li className='dropdown'>Our Services <FontAwesomeIcon icon={faCaretDown} />
+                        <div className='dropdown-content'>
                             <NavLink className="nav-link" to="/monthtomonth">
                                 Month to Month
                             </NavLink>
@@ -28,7 +28,7 @@ function Navbar() {
                                 Graphic Design
                             </NavLink>
                         </div>
-                    </div>
+                    </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/aboutus">
                             About Us
@@ -40,7 +40,7 @@ function Navbar() {
                         </NavLink>
                     </li>
                 </ul>
-            </nav>
+            </nav >
         </header >
     )
 }
