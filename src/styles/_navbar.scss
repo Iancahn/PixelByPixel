@@ -44,6 +44,7 @@ a {
 
 .main-nav a:hover {
     color: $pixel-blue;
+    transition: 0.1s ease-in-out;
 }
 
 header {
@@ -78,7 +79,7 @@ header {
 .dropdown-content a:hover {
     background-color: $pixel-blue;
     color: $pixel-white;
-    transition: 0.2s ease-in-out
+    transition: 0.2s ease-in-out;
 }
 
 .dropdown:hover .dropdown-content {

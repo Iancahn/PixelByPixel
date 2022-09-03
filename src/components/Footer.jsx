@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
+import ScrollTop from './ScrollTop';
 // import Animation
 // import { motion } from "framer-motion";
 // import components
@@ -25,18 +27,18 @@ function Footer() {
                     </div>
                     <div className="column-three quick-links">
                         <div>
-                            <h4><span style={{ textDecoration: "underline", paddingBottom: "0.5em" }}>Quick Links</span></h4>
-                            <p>Home</p>
-                            <p>Month To Month</p>
-                            <p>Website Design</p>
-                            <p>Graphic Design</p>
-                            <p>About Us</p>
-                            <p>Contact Us</p>
+                            <h4><span style={{ textDecoration: "underline" }}>Quick Links</span></h4>
+                            <li><NavLink className="" to="/">Home</NavLink></li>
+                            <li><NavLink className="" to="/monthtomonth">Month To Month</NavLink></li>
+                            <li><NavLink className="" to="/webdesign">Website Design</NavLink></li>
+                            <li><NavLink className="" to="/graphicdesign">Graphic Design</NavLink></li>
+                            <li><NavLink className="" to="/aboutus">About Us</NavLink></li>
+                            <li><NavLink className="" to="/contact">Contact Us</NavLink></li>
                         </div>
                     </div>
                     <div className="column-three">
                         <div className="footer-up">
-                            <button className="footer-btn">BACK TO TOP <FontAwesomeIcon icon={faAngleUp} /> </button>
+                            <button onClick={ScrollTop} className="footer-btn">BACK TO TOP <FontAwesomeIcon icon={faAngleUp} /> </button>
                         </div>
                     </div>
                 </div>
