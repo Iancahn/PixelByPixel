@@ -2,12 +2,13 @@
 
 $font-stack: futura-pt, sans-serif;
 $font-stack-bold: futura-pt-bold, sans-serif;
-$pixel-blue: #0062ff;
+$pixel-blue: #0065f2;
 $pixel-blueAccent: #0846f3;
 $pixel-darkBlue: #09133c;
 $pixel-yellow: #ffc801;
 $pixel-black: #0a0a0a;
 $pixel-white: #fff;
+
 
 
 @import "./navbar";
@@ -51,7 +52,7 @@ body {
 }
 
 section {
-    padding: 10em 0;
+    padding: 8.5em 0;
 }
 
 .call-to-action {
@@ -117,5 +118,44 @@ footer {
 }
 
 #footer-logo {
-    max-width: 10%;
+    margin-top: 1.5em;
+    max-width: 250px;
+    margin-bottom: 0.5em;
+}
+
+footer p {
+    margin-top: 0.4em;
+    font-size: 1.25rem;
+}
+
+.quick-links {
+    padding-left: 4em;
+}
+
+.copyright {
+    margin-top: 1em;
+    font-size: 1rem;
+}
+
+footer h4 {
+    font-size: 1.2rem;
+}
+
+.footer-btn {
+    color: $pixel-white;
+    background-color: $pixel-darkBlue;
+    border: 1px solid $pixel-white;
+    padding: 0.8em 1.6em;
+    font-size: 1rem;
+    font-weight: bolder;
+    transition: 0.25s ease-in-out;
+}
+
+.footer-btn:hover {
+    background-color: $pixel-white;
+    color: $pixel-darkBlue;
+}
+
+.footer-up {
+    float: right;
 }

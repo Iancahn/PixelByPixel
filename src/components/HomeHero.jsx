@@ -1,6 +1,4 @@
 import React from 'react';
-//import Images
-// import homeHero from '../img/home-website-design-services.jpg';
 
 function HomeHero() {
     return (
