@@ -4,12 +4,12 @@ import React from 'react';
 // import components
 
 // import images
-import nty from '../img/nty-website-design.jpg';
-import jaco from '../img/jaco-terblanche-website-design.jpg';
-import greenco from '../img/greenco-website-development.jpg';
-import huweliksfokus from '../img/huweliksfokus-website-development.jpg';
-import galaxydoors from '../img/galaxy-doors-website-development.jpg';
-import cycad from '../img/cycad-estate-websitedesign.jpg';
+import nty from '../assets/nty-website-design.jpg';
+import jaco from '../assets/jaco-terblanche-website-design.jpg';
+import greenco from '../assets/greenco-website-development.jpg';
+import huweliksfokus from '../assets/huweliksfokus-website-development.jpg';
+import galaxydoors from '../assets/galaxy-doors-website-development.jpg';
+import cycad from '../assets/cycad-estate-websitedesign.jpg';
 
 function HomeServices() {
     return (

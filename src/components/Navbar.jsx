@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 // import logo
-import logo from '../img/PBP-2022-Logo.png';
+import logo from '../assets/PBP-2022-Logo.png';
 
 function Navbar() {
     return (
@@ -38,7 +38,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/contact">
-                            Contact Us
+                            <button className="contact-us-btn">Contact Us</button>
                         </NavLink>
                     </li>
                 </ul>

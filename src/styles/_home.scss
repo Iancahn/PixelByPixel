@@ -1,39 +1,45 @@
 .home-hero {
-    background: url('../img/home-website-design-services.jpg');
-    height: 88vh;
-    color: $pixel-white;
-    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .hero-text {
     position: absolute;
-    bottom: 0;
+    bottom: 300px;
     width: 100%;
     padding-top: 4em;
 }
 
 .hero-text-wrap {
-    max-width: 60vw;
+    max-width: 73vw;
     margin: auto;
-    padding-bottom: 2.5em;
 }
 
-.upper-p {
-    text-transform: uppercase;
-    font-size: 23px;
-    line-height: 41px;
-    font-weight: 300;
-    padding-bottom: 0.5em;
-}
+// .upper-p {
+//     text-transform: uppercase;
+//     font-size: 23px;
+//     line-height: 41px;
+//     font-weight: 300;
+//     padding-bottom: 0.5em;
+// }
 
 .home-h1 {
-    font-size: 59px;
-    line-height: 59px;
+    color: $pixel-white;
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+    line-height: 4.5rem;
     font-weight: 700;
+    max-width: 45vw;
 }
 
 .home-intro {
-    background: $pixel-yellow url('../img/pattern.svg') repeat-y center;
+    background: $pixel-yellow url('../assets/pattern.svg') repeat-y center;
 }
 
 .home-container {

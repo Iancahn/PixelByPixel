@@ -6,7 +6,7 @@ import ScrollTop from './ScrollTop';
 // import components
 
 // import images
-import footerLogo from '../img/pbp-2023-footerlogo.png';
+import footerLogo from '../assets/pbp-2023-footerlogo.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';

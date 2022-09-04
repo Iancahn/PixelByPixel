@@ -13,6 +13,7 @@ $pixel-white: #fff;
 
 @import "./navbar";
 @import "./fonts";
+@import "./elements";
 
 @import "./home";
 @import "./monthtomonth";
@@ -28,20 +29,6 @@ $pixel-white: #fff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.call-to-action-button {
-    margin-top: 2em;
-    padding: 1.5em 3em;
-    font-size: 1em;
-    font-weight: 700;
-    background-color: transparent;
-    border: 1px solid $pixel-black;
-    transition: 0.3s;
-}
-
-.call-to-action-button:hover {
-    background-color: $pixel-white;
 }
 
 body {
