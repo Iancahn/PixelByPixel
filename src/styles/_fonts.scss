@@ -1,16 +1,19 @@
 // Font Styling Starts
 
 h1 {
-    font-size: 2rem;
-    line-height: 1.25;
+    font-size: 3.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 4.5rem;
     font-weight: 700;
 }
 
 h2 {
-    font-family: $font-stack-bold;
+    font-family: $font-stack;
     line-height: 2.8rem;
-    font-size: 1.875rem;
+    font-size: 2.8rem;
     font-weight: 700;
+    margin-bottom: 0.3em;
 }
 
 h3 {

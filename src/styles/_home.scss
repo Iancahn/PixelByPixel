@@ -31,15 +31,12 @@ video {
 
 .home-h1 {
     color: $pixel-white;
-    font-size: 3.6rem;
-    letter-spacing: 2px;
-    line-height: 4.5rem;
-    font-weight: 700;
     max-width: 45vw;
 }
 
 .home-intro {
-    background: $pixel-yellow url('../assets/pattern.svg') repeat-y center;
+    // background: $pixel-yellow url('../assets/pattern.svg') repeat-y center;
+    background-color: $pixel-black;
 }
 
 .home-container {

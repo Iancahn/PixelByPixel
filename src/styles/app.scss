@@ -1,7 +1,9 @@
 // Primary fonts and colors
 
 $font-stack: futura-pt, sans-serif;
+// 300 400 500
 $font-stack-bold: futura-pt-bold, sans-serif;
+// 700
 $pixel-blue: #0065f2;
 $pixel-blueAccent: #0846f3;
 $pixel-darkBlue: #09133c;
@@ -39,7 +41,7 @@ body {
 }
 
 section {
-    padding: 8.5em 0;
+    padding: 5.5em 0;
 }
 
 .call-to-action {
@@ -52,7 +54,7 @@ section {
 }
 
 .container {
-    max-width: 60vw;
+    max-width: 74vw;
     margin: auto;
 }
 
@@ -63,12 +65,22 @@ section {
 
 .row {
     display: flex;
+    -webkit-align-items: center;
+    align-items: center;
 }
 
 .column {
     float: left;
     flex: 50%;
-    padding: 1em 2em 1em 0em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em 1em 1em;
+}
+
+.column-img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 2px;
 }
 
 /* Clear floats after the columns */
@@ -153,4 +165,14 @@ footer h4 {
 
 .footer-up {
     float: right;
+}
+
+.black-line {
+    background: $pixel-black;
+    text-align: center;
+    padding: 3em 0;
+
+    h3 {
+        color: $pixel-white;
+    }
 }

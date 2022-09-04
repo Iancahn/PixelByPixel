@@ -7,7 +7,7 @@ ul {
 }
 
 a {
-    color: $pixel-white;
+    color: $pixel-black;
     text-decoration: none;
 }
 
@@ -40,21 +40,21 @@ nav {
     padding: 0em 1em;
     text-align: center;
     display: block;
-    color: $pixel-white;
+    color: $pixel-black;
     font-size: 1.3rem;
 }
 
 .main-nav a:hover {
-    color: $pixel-blue;
+    color: $pixel-black;
     transition: 0.1s ease-in-out;
 }
 
 header {
     z-index: 999;
     width: 100%;
-    padding: 0em 5em;
-    // background-color: $pixel-white;
-    // box-shadow: rgb(94 98 119 / 20%) 0 0 20px 1px;
+    padding: 0.6em 5em;
+    background-color: $pixel-white;
+    box-shadow: rgb(94 98 119 / 30%) 0 0 20px 2px;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -102,10 +102,19 @@ header {
 }
 
 .contact-us-btn {
+    background-color: $pixel-black;
+    color: white;
     font-size: 1rem;
     padding: 1rem 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        background-color: $pixel-blue;
+        border: 2px solid $pixel-blue;
+    }
 }
 
 // Navbar ends
