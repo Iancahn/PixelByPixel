@@ -13,7 +13,7 @@ h2 {
     line-height: 2.8rem;
     font-size: 2.8rem;
     font-weight: 700;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 h3 {
@@ -29,8 +29,9 @@ h5 {}
 h6 {}
 
 p {
+    color: $pixel-black;
     font-family: $font-stack;
-    font-size: 1.43rem;
+    font-size: 1.4rem;
     line-height: 1.8rem;
 }
 
@@ -40,6 +41,13 @@ p {
 
 .service-title {
     color: green;
+}
+
+.large-text {
+    color: $pixel-gray;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 500;
 }
 
 // Font Styling End

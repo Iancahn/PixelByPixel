@@ -18,21 +18,21 @@ function HomeServices() {
                         <img src={monthtomonth} alt="our new Month to Month website renting service" />
                         <div className="work-block-text">
                             <p>Month2Month</p>
-                            <h3>Get your company website designed, hosted and maintained on our month to month package deal</h3>
+                            <h3>Let us get your company online, with our month to month website package plans</h3>
                         </div>
                     </div>
                     <div className="work-block">
                         <img src={websitedesign} alt="our new Month to Month website renting service" />
                         <div className="work-block-text">
                             <p>Website Design</p>
-                            <h3>Let's build your company the custom websites.</h3>
+                            <h3>Let us build your company a brand new custom websites with all the bells and whistles</h3>
                         </div>
                     </div>
                     <div className="work-block">
                         <img src={graphicdesign} alt="our new Month to Month website renting service" />
                         <div className="work-block-text">
                             <p>Graphic Design</p>
-                            <h3>Let's build your brand new logo and supporting graphics with our qualified graphic design team</h3>
+                            <h3>Let us build your exciting new brand and logo with all the supporting graphic elements</h3>
                         </div>
                     </div>
                 </div>

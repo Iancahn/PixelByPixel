@@ -14,8 +14,6 @@ import cycad from '../assets/cycad-estate-websitedesign.jpg';
 function HomeServices() {
     return (
         <section className="home-work">
-
-
             <div className="container2 white-font">
                 <div className="portfolio-work">
                     <div className="portfolio-column sticky">

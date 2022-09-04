@@ -10,7 +10,7 @@ $pixel-darkBlue: #09133c;
 $pixel-yellow: #ffc801;
 $pixel-black: #0a0a0a;
 $pixel-white: #fff;
-
+$pixel-gray: #585858;
 
 
 @import "./navbar";
@@ -74,7 +74,7 @@ section {
     flex: 50%;
     display: flex;
     flex-direction: column;
-    padding: 1em 2em 1em 1em;
+    padding: 1em 2em 1em 0em;
 }
 
 .column-img {
