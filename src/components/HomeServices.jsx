@@ -12,7 +12,7 @@ function HomeServices() {
     return (
         <section className="home-services">
             <div className="container">
-                <h2>Our Services:</h2>
+                <h2>Our Services</h2>
                 <div className="work-container">
                     <div className="work-block">
                         <img src={monthtomonth} alt="our new Month to Month website renting service" />

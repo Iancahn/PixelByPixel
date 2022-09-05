@@ -14,11 +14,11 @@ import cycad from '../assets/cycad-estate-websitedesign.jpg';
 function HomeServices() {
     return (
         <section className="home-work">
-            <div className="container2 white-font">
+            <div className="container white-font">
                 <div className="portfolio-work">
-                    <div className="portfolio-column sticky">
+                    <div className="portfolio-column">
                         <div className="sticky">
-                            <h2>Some of the website design projects we just recently launched</h2>
+                            <h2>Some of our recent website design projects</h2>
                             <p>Here's a small selection of the most recent projects we've launched. For a broader sense of our work, check out our other website design projects.</p>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ function HomeIntro() {
             <div className="container">
                 <div className="row">
                     <div className="column">
-                        <h2>How we stand out:</h2>
+                        <h2>How we stand out</h2>
                         <p className="large-text">By always improving our skillset, we continue to deliver innovative web solutions that drives real online success.</p>
                         <br />
                         <p>We believe great website design consists of more than just adding some images and words to a webpage. It's getting the customer to trust your company. It's getting visitors to convert into actual paying customers.</p>

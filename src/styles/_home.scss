@@ -77,7 +77,7 @@ video {
 
 .work-container {
     display: flex;
-    padding-top: 2.5em;
+    padding-top: 1.5em;
     justify-content: center;
 }
 
@@ -102,7 +102,6 @@ video {
 
 .home-work {
     background-color: $pixel-black;
-    // padding-bottom: 16rem;
 }
 
 .portfolio-work {
@@ -110,13 +109,13 @@ video {
 }
 
 .portfolio-column {
-    padding: 1.8em;
+    padding-right: 3em;
     max-width: 25vw;
 }
 
-.portfolio-column-div1>img {
-    max-width: 18vw;
-    padding-bottom: 0.5em;
+.portfolio-column-div1>img,
+.portfolio-column-div2>img {
+    max-width: 22vw;
 }
 
 .rem-spacing {
@@ -126,11 +125,6 @@ video {
 .portfolio-column-div1,
 .portfolio-column-div2 {
     margin-bottom: 4em;
-}
-
-.portfolio-column-div2>img {
-    max-width: 18vw;
-    padding-bottom: 0.5em;
 }
 
 .sticky {
