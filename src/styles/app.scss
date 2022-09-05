@@ -110,10 +110,15 @@ footer {
 }
 
 .service-header {
-    min-height: 70vh;
+    min-height: 72vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.service-type {
+    font-size: 4rem;
+    color: purple;
 }
 
 #footer-logo {

@@ -10,6 +10,7 @@ function ServiceHeader(props) {
     return (
         <div className="service-header">
             <div>
+                <p className="service-type">{props.type}</p>
                 <h1 className="service-title">{props.title}</h1>
                 <p className="sub-header">{props.subheader}</p>
             </div>

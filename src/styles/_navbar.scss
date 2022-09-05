@@ -44,8 +44,12 @@ nav {
     font-size: 1.4rem;
 }
 
+.dropdown:hover {
+    color: $pixel-blue;
+}
+
 .main-nav a:hover {
-    color: $pixel-black;
+    color: $pixel-blue;
     transition: 0.1s ease-in-out;
 }
 
