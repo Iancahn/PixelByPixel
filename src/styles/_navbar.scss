@@ -34,7 +34,7 @@ header {
 
     .dropdown-content a:hover {
         background-color: $pixel-blue;
-        color: $pixel-white;
+        color: $pixel-white  !important;
         transition: 0.2s ease-in-out;
     }
 
@@ -149,6 +149,12 @@ header.active {
         }
     }
 
+    .dropdown-content a:hover {
+        background-color: $pixel-blue;
+        color: $pixel-white;
+        transition: 0.2s ease-in-out;
+    }
+
     ul {
         margin: 0;
         padding: 0;
@@ -174,6 +180,10 @@ header.active {
         display: block;
         font-size: 1.4rem;
         color: $pixel-black;
+    }
+
+    .dropdown:hover {
+        color: $pixel-blue;
     }
 
     .main-nav {

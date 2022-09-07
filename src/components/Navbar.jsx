@@ -3,19 +3,13 @@ import { NavLink } from "react-router-dom";
 // import FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
-// import logo
-import logo from '../assets/PBP-2022-Logo.png';
-
-
-
-
 
 function Navbar() {
     return (
         < header >
             {/* Add lottie animation logo at later stage */}
             <NavLink className="nav-link" to="/">
-                <img className="main-logo" />
+                <img className="main-logo" alt="The main PixelByPixel logo" />
             </NavLink>
             <nav>
                 <ul class="main-nav">
