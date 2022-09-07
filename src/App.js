@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import Styles
 import './styles/app.scss';
 // Router
@@ -14,8 +14,22 @@ import ContactUs from './pages/ContactUs';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-
 function App() {
+  useEffect(() => {
+    const scrollHandler = e => {
+      if (window.scrollY > 120) {
+        document.querySelector('header').classList.add("active");
+        console.log('window.scrollY', window.scrollY);
+      } else {
+        document.querySelector('header').classList.remove("active");
+      }
+    };
+    window.addEventListener('scroll', scrollHandler);
+    return () => {
+      window.removeEventListener('scroll', scrollHandler);
+    };
+  }, []);
+
   const location = useLocation();
   return (
     <div className="App">

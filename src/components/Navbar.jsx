@@ -6,6 +6,10 @@ import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 // import logo
 import logo from '../assets/PBP-2022-Logo.png';
 
+
+
+
+
 function Navbar() {
     return (
         < header >
