@@ -15,7 +15,7 @@ function Navbar() {
         < header >
             {/* Add lottie animation logo at later stage */}
             <NavLink className="nav-link" to="/">
-                <img className="main-logo" src={logo} alt="PixelByPixel logo" />
+                <img className="main-logo" />
             </NavLink>
             <nav>
                 <ul class="main-nav">

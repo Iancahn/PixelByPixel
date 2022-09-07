@@ -1,58 +1,5 @@
 // Navbar Starts
 
-.main-logo {
-    margin-left: 1.5em;
-    margin-top: 0.4em;
-    max-height: 60px;
-}
-
-.main-nav {
-    display: flex;
-    padding-left: 1em;
-    padding-right: 1em;
-    align-items: center;
-}
-
-.logo {
-    font-size: 2.5rem;
-    margin-left: 1em;
-    margin-top: 0.3em;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-}
-
-
-
-.dropdown:hover {
-    color: $pixel-blue;
-}
-
-.main-nav a:hover {
-    color: $pixel-blue;
-    transition: 0.1s ease-in-out;
-}
-
-// header {
-//     z-index: 999;
-//     width: 100%;
-//     padding: 0.6em 5em;
-//     background-color: $pixel-white;
-//     box-shadow: rgb(94 98 119 / 30%) 0 0 20px 2px;
-//     display: flex;
-//     justify-content: space-between;
-//     position: fixed;
-// }
-
-// header.active {
-//     background: #fff;
-//     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-//     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-//     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-// }
-
 header {
     position: fixed;
     top: 0;
@@ -64,6 +11,81 @@ header {
     transition: all 0.2s ease-in-out;
     display: flex;
     justify-content: space-between;
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: $pixel-white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        border-radius: 5px;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: $pixel-black;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: 0.8em 1.5em;
+        font-size: 1.1rem;
+    }
+
+    .dropdown-content a:hover {
+        background-color: $pixel-blue;
+        color: $pixel-white;
+        transition: 0.2s ease-in-out;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown {
+        font-size: 1.3rem;
+        border: none;
+        outline: none;
+        color: $pixel-black;
+        padding: 0.65em 1em 0px 0.8em;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .main-logo {
+        content: url(../assets/PBP-2022-Logo-white.png);
+        margin-left: 1.5em;
+        margin-top: 0.4em;
+        max-height: 60px;
+    }
+
+    .main-nav {
+        display: flex;
+        padding-left: 1em;
+        padding-right: 1em;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        margin-left: 1em;
+        margin-top: 0.3em;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .dropdown:hover {
+        color: $pixel-blue;
+    }
+
+    .main-nav a:hover {
+        color: $pixel-blue;
+        transition: 0.1s ease-in-out;
+    }
 
     ul {
         margin: 0;
@@ -138,6 +160,13 @@ header.active {
         text-decoration: none;
     }
 
+    .main-logo {
+        content: url(../assets/PBP-2022-Logo.png);
+        margin-left: 1.5em;
+        margin-top: 0.4em;
+        max-height: 60px;
+    }
+
     .main-nav li,
     .dropdown {
         padding: 0em 1em;
@@ -146,63 +175,13 @@ header.active {
         font-size: 1.4rem;
         color: $pixel-black;
     }
+
+    .main-nav {
+        display: flex;
+        padding-left: 1em;
+        padding-right: 1em;
+        align-items: center;
+    }
 }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: $pixel-white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
-    z-index: 1;
-    border-radius: 5px;
-}
-
-.dropdown-content a {
-    float: none;
-    color: $pixel-black;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    padding: 0.8em 1.5em;
-    font-size: 1.1rem;
-}
-
-.dropdown-content a:hover {
-    background-color: $pixel-blue;
-    color: $pixel-white;
-    transition: 0.2s ease-in-out;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown {
-    font-size: 1.3rem;
-    border: none;
-    outline: none;
-    color: $pixel-black;
-    padding: 0.65em 1em 0px 0.8em;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-// .contact-us-btn {
-//     background-color: $pixel-black;
-//     color: white;
-//     font-size: 1rem;
-//     padding: 1rem 2rem;
-//     text-transform: uppercase;
-//     letter-spacing: 2px;
-//     cursor: pointer;
-//     transition: .2s ease-in-out;
-
-//     &:hover {
-//         background-color: $pixel-blue;
-//         border: 2px solid $pixel-blue;
-//     }
-// }
 
 // Navbar ends
