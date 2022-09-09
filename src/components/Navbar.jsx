@@ -18,7 +18,7 @@ function Navbar() {
                     </NavLink></li>
                     <li className='dropdown'>Our Services <FontAwesomeIcon icon={faCaretDown} />
                         <div className='dropdown-content'>
-                            <NavLink className="nav-link" to="/monthtomonth">
+                            <NavLink className="nav-link" to="/case-studies/nty">
                                 Month to Month
                             </NavLink>
                             <NavLink className="nav-link" to="/webdesign">
