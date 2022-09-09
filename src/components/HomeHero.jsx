@@ -1,5 +1,5 @@
 import React from 'react';
-import videoBg from '../assets/PixelByPixel-home-intro.mp4'
+import videoBg from '../assets/PixelByPixel-homevideo.mp4'
 
 function HomeHero() {
     return (

@@ -10,8 +10,26 @@ import ServiceHeader from '../components/ServiceHeader';
 
 function ContactUs() {
     return (
-        <div className="contact-us-header">
-            <ServiceHeader title="This is the Contact Us title" subheader="This is the subheader" />
+        <div>
+            <div className="contact-us-header">
+                <ServiceHeader title="This is the Contact Us title" subheader="This is the subheader" />
+            </div>
+            <div>
+                <section>
+                    <div className="container">
+                        <column>
+                            <div>
+                                Hello
+                            </div>
+                        </column>
+                        <column>
+                            <div>
+                                Hello
+                            </div>
+                        </column>
+                    </div>
+                </section>
+            </div>
         </div>
     )
 }
