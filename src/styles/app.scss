@@ -71,8 +71,9 @@ section {
     align-items: center;
 }
 
-.padding {
+.portfolio-padding {
     margin-top: 3em;
+
 }
 
 .column {
@@ -112,7 +113,6 @@ section {
 .column-six {
     float: left;
     width: 16.5%;
-    align-items: center;
 }
 
 /* Clear floats after the columns */
@@ -145,6 +145,10 @@ footer {
     margin-top: 1em;
     max-width: 250px;
     margin-bottom: 0.5em;
+}
+
+.portfolio-logos {
+    max-width: 80%;
 }
 
 footer p,

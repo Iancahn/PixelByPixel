@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 // import Animation
 // import { motion } from "framer-motion";
 // import components
@@ -6,7 +7,7 @@ import React from 'react';
 // import images
 import nty from '../assets/nty-website-design.jpg';
 import jaco from '../assets/jaco-terblanche-website-design.jpg';
-import greenco from '../assets/greenco-website-development.jpg';
+import steakshop from '../assets/steakshop-portfolio.jpg';
 import huweliksfokus from '../assets/huweliksfokus-website-development.jpg';
 import galaxydoors from '../assets/galaxy-doors-website-development.jpg';
 import cycad from '../assets/cycad-estate-websitedesign.jpg';
@@ -23,41 +24,53 @@ function HomeServices() {
                         </div>
                     </div>
                     <div className="portfolio-column">
-                        <div className="portfolio-column-div1 rem-spacing">
-                            <img src={nty} alt="Some of our latest website design projects" />
-                            <h3>NTY Steel</h3>
-                            <p className="small-project-text">Website Design | Wordpress</p>
-                        </div>
-                        <div className="portfolio-column-div1">
-                            <img src={jaco} alt="Some of our latest website design projects" />
-                            <h3>Jaco Terblanche Designs</h3>
-                            <p className="small-project-text">Website Design | Wordpress | MonthToMonth</p>
-                        </div>
-                        <div className="portfolio-column-div1">
-                            <img src={huweliksfokus} alt="Some of our latest website design projects" />
-                            <h3>Huweliksfokus Councillors</h3>
-                            <p className="small-project-text">Brand Development | Website Design | Wordpress</p>
-                        </div>
+                        <NavLink className="navlink" to="/case-studies/nty">
+                            <div className="portfolio-column-div1 rem-spacing">
+                                <img src={nty} alt="Some of our latest website design projects" />
+                                <h3>NTY Steel</h3>
+                                <p className="small-project-text">Website Design | Wordpress</p>
+                            </div>
+                        </NavLink>
+                        <NavLink className="navlink" to="/case-studies/jaco">
+                            <div className="portfolio-column-div1">
+                                <img src={jaco} alt="Some of our latest website design projects" />
+                                <h3>Jaco Terblanche Designs</h3>
+                                <p className="small-project-text">Website Design | Wordpress | MonthToMonth</p>
+                            </div>
+                        </NavLink>
+                        <NavLink className="navlink" to="/case-studies/huweliksfokus">
+                            <div className="portfolio-column-div1">
+                                <img src={huweliksfokus} alt="Some of our latest website design projects" />
+                                <h3>Huweliksfokus Councillors</h3>
+                                <p className="small-project-text">Brand Development | Website Design | Wordpress</p>
+                            </div>
+                        </NavLink>
                     </div>
                     <div className="portfolio-column">
-                        <div className="portfolio-column-div2">
-                            <img src={galaxydoors} alt="Some of our latest website design projects" />
-                            <h3>Galaxy Doors</h3>
-                            <p className="small-project-text">Brand Development | Website Design | SEO</p>
-                        </div>
-                        <div className="portfolio-column-div2">
-                            <img src={cycad} alt="Some of our latest website design projects" />
-                            <h3>Cycad Estate Polokwane</h3>
-                            <p className="small-project-text">Website Design | Wordpress</p>
-                        </div>
-                        <div className="portfolio-column-div2">
-                            <img src={greenco} alt="Some of our latest website design projects" />
-                            <h3>Tychoset Engineering</h3>
-                            <p className="small-project-text">Website Design | Wordpress</p>
-                        </div>
+                        <NavLink className="navlink" to="/case-studies/galaxydoors">
+                            <div className="portfolio-column-div2">
+                                <img src={galaxydoors} alt="Some of our latest website design projects" />
+                                <h3>Galaxy Doors</h3>
+                                <p className="small-project-text">Brand Development | Website Design | SEO</p>
+                            </div>
+                        </NavLink>
+                        <NavLink className="navlink" to="/case-studies/cycad">
+                            <div className="portfolio-column-div2">
+                                <img src={cycad} alt="Some of our latest website design projects" />
+                                <h3>Cycad Estate Polokwane</h3>
+                                <p className="small-project-text">Website Design | Wordpress</p>
+                            </div>
+                        </NavLink>
+                        <NavLink className="navlink" to="/case-studies/steakshop">
+                            <div className="portfolio-column-div2">
+                                <img src={steakshop} alt="Some of our latest website design projects" />
+                                <h3>SteakShop Polokwane</h3>
+                                <p className="small-project-text">Website Design | E-Commerce | Wordpress</p>
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
-            </div>
+            </div >
         </section >
     )
 }
