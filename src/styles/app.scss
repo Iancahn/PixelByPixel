@@ -137,8 +137,30 @@ footer {
 }
 
 .service-type {
-    font-size: 4rem;
-    color: purple;
+    font-size: 1.3rem;
+    color: $pixel-white;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 8px;
+}
+
+.service-title {
+    color: $pixel-white;
+    background-color: #ffc801;
+}
+
+.width-test {
+    max-width: 60%;
+}
+
+.blackbox {
+    background-color: $pixel-black;
+    margin-top: -20vh;
+    width: 30vw;
+    height: 45vh;
+    color: $pixel-white;
+    padding: 4em;
+    border-radius: 5px;
 }
 
 #footer-logo {
