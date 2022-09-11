@@ -24,21 +24,21 @@ function HomeServices() {
                         </div>
                     </div>
                     <div className="portfolio-column">
-                        <NavLink className="navlink" to="/case-studies/nty">
+                        <NavLink className="navlink" to="/case-studies/nty" target="_blank">
                             <div className="portfolio-column-div1 rem-spacing">
                                 <img src={nty} alt="Some of our latest website design projects" />
                                 <h3>NTY Steel</h3>
                                 <p className="small-project-text">Website Design | Wordpress</p>
                             </div>
                         </NavLink>
-                        <NavLink className="navlink" to="/case-studies/jaco">
+                        <NavLink className="navlink" to="/case-studies/jaco" target="_blank">
                             <div className="portfolio-column-div1">
                                 <img src={jaco} alt="Some of our latest website design projects" />
                                 <h3>Jaco Terblanche Designs</h3>
                                 <p className="small-project-text">Website Design | Wordpress | MonthToMonth</p>
                             </div>
                         </NavLink>
-                        <NavLink className="navlink" to="/case-studies/huweliksfokus">
+                        <NavLink className="navlink" to="/case-studies/huweliksfokus" target="_blank">
                             <div className="portfolio-column-div1">
                                 <img src={huweliksfokus} alt="Some of our latest website design projects" />
                                 <h3>Huweliksfokus Councillors</h3>
@@ -47,21 +47,21 @@ function HomeServices() {
                         </NavLink>
                     </div>
                     <div className="portfolio-column">
-                        <NavLink className="navlink" to="/case-studies/galaxydoors">
+                        <NavLink className="navlink" to="/case-studies/galaxydoors" target="_blank">
                             <div className="portfolio-column-div2">
                                 <img src={galaxydoors} alt="Some of our latest website design projects" />
                                 <h3>Galaxy Doors</h3>
                                 <p className="small-project-text">Brand Development | Website Design | SEO</p>
                             </div>
                         </NavLink>
-                        <NavLink className="navlink" to="/case-studies/cycad">
+                        <NavLink className="navlink" to="/case-studies/cycad" target="_blank">
                             <div className="portfolio-column-div2">
                                 <img src={cycad} alt="Some of our latest website design projects" />
                                 <h3>Cycad Estate Polokwane</h3>
                                 <p className="small-project-text">Website Design | Wordpress</p>
                             </div>
                         </NavLink>
-                        <NavLink className="navlink" to="/case-studies/steakshop">
+                        <NavLink className="navlink" to="/case-studies/steakshop" target="_blank">
                             <div className="portfolio-column-div2">
                                 <img src={steakshop} alt="Some of our latest website design projects" />
                                 <h3>SteakShop Polokwane</h3>
