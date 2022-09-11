@@ -8,7 +8,7 @@ function MonthToMonth(props) {
         <div>
             <div className="month-to-month-header">
                 <div className="container2">
-                    <ServiceHeader title="Get your website designed without breaking the bank." subheader="Our month to month webs" type="WEBSITE DESIGN" />
+                    <ServiceHeader title="Get your website designed without breaking the bank." type="MONTH TO MONTH PACKAGES" />
                 </div>
             </div>
             <section>

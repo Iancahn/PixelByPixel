@@ -8,7 +8,7 @@ function WebsiteDesign(props) {
         <div>
             <div className="website-design-header">
                 <div className="container2">
-                    <ServiceHeader title="This is the Website title" type="WEBSITE DESIGN" />
+                    <ServiceHeader title="Bringing your ideas to life with great website design." type="WEBSITE DESIGN" />
                 </div>
             </div>
             <section>
