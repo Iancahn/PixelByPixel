@@ -16,6 +16,8 @@ $pixel-gray: #585858;
 @import "./navbar";
 @import "./fonts";
 @import "./elements";
+@import "./casestudies";
+
 
 @import "./home";
 @import "./monthtomonth";
@@ -69,6 +71,10 @@ section {
     align-items: center;
 }
 
+.padding {
+    margin-top: 3em;
+}
+
 .column {
     float: left;
     flex: 50%;
@@ -80,8 +86,16 @@ section {
 .column-img {
     max-width: 100%;
     object-fit: cover;
-    border-radius: 2px;
+    border-radius: 5px;
 }
+
+.centered {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 3em;
+}
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -93,6 +107,12 @@ section {
 .column-three {
     float: left;
     width: 33.33%;
+}
+
+.column-six {
+    float: left;
+    width: 16.5%;
+    align-items: center;
 }
 
 /* Clear floats after the columns */

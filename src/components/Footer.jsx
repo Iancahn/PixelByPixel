@@ -19,7 +19,7 @@ function Footer() {
                     <div className="column-three">
                         <div>
                             <img src={footerLogo} alt="pixelbypixel footer logo" id="footer-logo" />
-                            <p>Pixel By Pixel is a digital marketing agency that specializes in website design and web app development.</p>
+                            <p>Pixel By Pixel is a digital marketing agency that specializes in custom website design and web app development.</p>
                         </div>
                         <div>
                             <p className="copyright">© Copyright 2022 | All Rights Reserved | PixelByPixel</p>

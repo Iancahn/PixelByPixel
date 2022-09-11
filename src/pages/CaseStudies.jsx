@@ -10,6 +10,7 @@ function CaseStudies() {
     const url = useLocation();
     const [projects] = useState(dataState);
     const [project, setProject] = useState(null);
+    console.log(url);
 
     // useEffect
     useEffect(() => {
@@ -25,16 +26,20 @@ function CaseStudies() {
                         <h1>{project.title}</h1>
                         <p>{project.description}</p>
                     </div>
-                    <div className="project-image">
-                        <img src={project.mainImg} />
+                    <div >
+                        <img src={project.mainImg} alt="Showing our case study work" className="project-image" />
                     </div>
                     <div className="project-details">
-                        <column>
-                            <p>{project.objective}</p>
-                        </column>
-                        <column>
-                            <p>{project.whatwedid}</p>
-                        </column>
+                        <section className="container">
+                            <div className="row">
+                                <column>
+                                    <p>{project.objective}</p>
+                                </column>
+                                <column>
+                                    <p>{project.whatwedid}</p>
+                                </column>
+                            </div>
+                        </section>
                     </div>
                 </div>
             )

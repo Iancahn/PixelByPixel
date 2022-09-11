@@ -9,6 +9,7 @@ import MonthToMonth from './pages/MonthToMonth';
 import WebsiteDesign from './pages/WebsiteDesign';
 import GraphicDesign from './pages/GraphicDesign';
 import AboutUs from './pages/AboutUs';
+import CaseStudies from './pages/CaseStudies';
 import ContactUs from './pages/ContactUs';
 // import Components
 import Navbar from './components/Navbar';
@@ -40,6 +41,7 @@ function App() {
         <Route path='/webdesign' exact element={<WebsiteDesign />} />
         <Route path='/graphicdesign' exact element={<GraphicDesign />} />
         <Route path='/aboutus' exact element={<AboutUs />} />
+        <Route path='/case-studies/:id' exact element={<CaseStudies />} />
         <Route path='/contact' exact element={<ContactUs />} />
       </Routes>
       <Footer />
