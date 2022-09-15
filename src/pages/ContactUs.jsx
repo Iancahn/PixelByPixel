@@ -1,7 +1,6 @@
 import React from 'react';
 // import components
 import ServiceHeader from '../components/ServiceHeader';
-import Calltoaction from '../components/Calltoaction';
 // import Animation
 // import { motion } from "framer-motion";
 // import components
@@ -33,9 +32,6 @@ function ContactUs() {
                     <div>Test</div>
                 </div>
             </section>
-            <div className='testdiv'>
-                <Calltoaction />
-            </div>
         </div>
     )
 }
