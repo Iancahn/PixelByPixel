@@ -12,7 +12,7 @@ video {
 .home-hero:before {
     content: '';
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.55);
     top: 0;
     right: 0;
     bottom: 0;
@@ -21,34 +21,25 @@ video {
 
 .hero-text {
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     width: 100%;
     padding-top: 4em;
 }
 
 .hero-text-wrap {
-    max-width: 65vw;
+    max-width: 75vw;
     margin: auto;
 }
-
-// .upper-p {
-//     text-transform: uppercase;
-//     font-size: 23px;
-//     line-height: 41px;
-//     font-weight: 300;
-//     padding-bottom: 0.5em;
-// }
 
 .home-h1 {
     color: $pixel-white;
     font-size: 6rem;
-    line-height: 1.08;
-    max-width: 70vw;
+    line-height: 1.05;
+    max-width: 75vw;
     text-align: left;
 }
 
 .home-intro {
-    // background: $pixel-yellow url('../assets/pattern.svg') repeat-y center;
     background-color: $pixel-black;
 }
 
@@ -86,7 +77,6 @@ video {
     background-color: #e7e7e7;
     padding-bottom: 6em;
 }
-
 
 .work-container {
     display: flex;

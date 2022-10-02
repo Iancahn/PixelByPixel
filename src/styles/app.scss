@@ -5,12 +5,12 @@ $font-stack: "proxima-nova", sans-serif;
 $font-stack-bold: "proxima-nova", sans-serif;
 // 700 and italic
 $pixel-blue: #0065f2;
-$pixel-blueAccent: #0846f3;
+$pixel-blueAccent: #1212FF;
 $pixel-darkBlue: #09133c;
-$pixel-yellow: #ffc801;
+$pixel-yellow: #EFFF06;
 $pixel-black: #0a0a0a;
 $pixel-white: #fff;
-$pixel-gray: #585858;
+$pixel-gray: #181818;
 
 
 @import "./navbar";
@@ -44,6 +44,20 @@ body {
 
 section {
     padding: 6em 0;
+}
+
+.gray-section {
+    border-top: 5px solid $pixel-yellow;
+    background-color: $pixel-gray;
+    color: $pixel-white;
+}
+
+.yellow {
+    color: $pixel-yellow;
+}
+
+.blue {
+    color: $pixel-blue;
 }
 
 .call-to-action {
