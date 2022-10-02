@@ -21,13 +21,13 @@ video {
 
 .hero-text {
     position: absolute;
-    bottom: 300px;
+    bottom: 40px;
     width: 100%;
     padding-top: 4em;
 }
 
 .hero-text-wrap {
-    max-width: 73vw;
+    max-width: 65vw;
     margin: auto;
 }
 
@@ -41,7 +41,10 @@ video {
 
 .home-h1 {
     color: $pixel-white;
-    max-width: 45vw;
+    font-size: 6rem;
+    line-height: 1.08;
+    max-width: 70vw;
+    text-align: left;
 }
 
 .home-intro {
