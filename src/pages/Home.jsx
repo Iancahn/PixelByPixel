@@ -5,6 +5,7 @@ import React from 'react';
 import HomeHero from '../components/HomeHero';
 import HomeIntro from '../components/HomeIntro';
 import HomeServices from '../components/HomeServices';
+import HomeClients from '../components/HomeClients';
 import HomeWork from '../components/HomeWork';
 import HomeAbout from '../components/HomeAbout';
 
@@ -15,6 +16,7 @@ function Home() {
             <HomeHero />
             <HomeIntro />
             <HomeServices />
+            <HomeClients />
             <HomeWork />
             <HomeAbout />
         </div>

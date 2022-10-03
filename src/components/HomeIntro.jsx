@@ -8,7 +8,7 @@ import homeIntro from '../assets/Intro-Website-design-services.jpg';
 
 function HomeIntro() {
     return (
-        <section className="gray-section">
+        <section className="gray-section-line">
             <div className="container">
                 <div className="row">
                     <div className="column">

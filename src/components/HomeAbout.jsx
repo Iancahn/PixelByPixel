@@ -3,20 +3,6 @@ import React from 'react';
 // import { motion } from "framer-motion";
 // import components
 
-// import images
-import ex10dor from '../assets/ex10dor.jpg';
-import galaxydoors from '../assets/galaxydoors.jpg';
-import greenco from '../assets/greenco.jpg';
-import property from '../assets/property-connect.jpg';
-import steakshop from '../assets/steakshop.jpg';
-import dubai from '../assets/dubai-oils.jpg';
-import effectivemarketing from '../assets/effectivemarketing.jpg';
-import litzkee from '../assets/litzkee.jpg';
-import midas from '../assets/midas.jpg';
-import worx from '../assets/188worx.jpg';
-import sepro from '../assets/sepro.jpg';
-import wildjasmine from '../assets/wild-jasmine.jpg';
-
 import aboutus from '../assets/pixelbypixel-mission-statement.jpg';
 
 function HomeAbout() {
@@ -37,58 +23,7 @@ function HomeAbout() {
                     </div>
                 </div>
             </div>
-            <div className="container">
-                <div className="row">
-                    <div className="centered">
-                        <h3>Companies we have worked with</h3>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="portfolio-padding">
-                        <div className="column-six">
-                            <img src={ex10dor} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={galaxydoors} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={greenco} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={property} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={wildjasmine} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={steakshop} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="portfolio-padding">
-                        <div className="column-six">
-                            <img src={dubai} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={effectivemarketing} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={litzkee} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={midas} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={worx} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                        <div className="column-six">
-                            <img src={sepro} alt="companies we have worked with" className="portfolio-logos" />
-                        </div>
-                    </div>
-                </div>
 
-            </div>
         </section >
     )
 }

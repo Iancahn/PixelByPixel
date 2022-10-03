@@ -74,30 +74,40 @@ video {
 }
 
 .home-services {
-    background-color: #e7e7e7;
+    background-color: $pixel-offwhite;
     padding-bottom: 6em;
 }
 
 .work-container {
     display: flex;
-    padding-top: 1.5em;
+    padding-top: 1em;
     justify-content: center;
 }
 
 .work-block {
     display: block;
     width: 20vw;
+    background-color: $pixel-white;
     box-shadow: 0 2px 28px 0 rgb(0 0 0 / 21%);
-    margin-right: 35px;
-    cursor: pointer;
+    margin: 1.1em;
+    padding: 3em 0 4em 0;
 }
 
-.work-block img {
-    width: 20vw;
-    object-fit: cover;
-    border-bottom: $pixel-yellow 10px solid;
-    border-radius: 8px 8px 0px 0px;
+.service-icon {
+    text-align: center;
+    margin: 3em 2em 0em 2em;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: $pixel-yellow;
 }
+
+// .work-block img {
+//     width: 20vw;
+//     object-fit: cover;
+//     border-bottom: $pixel-yellow 10px solid;
+//     border-radius: 8px 8px 0px 0px;
+// }
 
 .work-block-text {
     padding: 1.5em 2em 2em 2em;

@@ -10,6 +10,7 @@ $pixel-darkBlue: #09133c;
 $pixel-yellow: #EFFF06;
 $pixel-black: #0a0a0a;
 $pixel-white: #fff;
+$pixel-offwhite: #ECECEC;
 $pixel-gray: #181818;
 
 
@@ -47,10 +48,72 @@ section {
 }
 
 .gray-section {
+    background-color: $pixel-gray;
+    color: $pixel-white;
+    padding-bottom: 9em;
+}
+
+.gray-section-line {
     border-top: 5px solid $pixel-yellow;
     background-color: $pixel-gray;
     color: $pixel-white;
 }
+
+// section-title-yellow
+
+.section-title-yellow {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.section-title-yellow span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+h3.section-title-yellow span:after {
+    background: $pixel-yellow;
+    content: '';
+    display: block;
+    height: 12px;
+    position: absolute;
+    top: 30px;
+    left: -5px;
+    right: -5px;
+    z-index: -1;
+}
+
+// section-title-white
+
+.section-title-white {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.section-title-white span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+h3.section-title-white span:after {
+    background: rgba(255, 255, 255, 0.3);
+    content: '';
+    display: block;
+    height: 12px;
+    position: absolute;
+    top: 30px;
+    left: -5px;
+    right: -5px;
+    z-index: -1;
+}
+
+// Color Styling
 
 .yellow {
     color: $pixel-yellow;
@@ -70,7 +133,7 @@ section {
 }
 
 .container {
-    max-width: 74vw;
+    max-width: 70vw;
     margin: auto;
 }
 
