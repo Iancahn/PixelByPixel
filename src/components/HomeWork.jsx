@@ -14,8 +14,35 @@ import cycad from '../assets/cycad-estate-websitedesign.jpg';
 
 function HomeServices() {
     return (
-        <section className="home-work">
-            <div className="container white-font">
+        <section>
+            <div className='centered'>
+                <h3 className="section-title-yellow"><span>Recent Projects</span></h3>
+                <p>Some of our most recent digital marketing projects that we've launched.</p>
+            </div>
+            <div className="container">
+                <div className="column2">
+                    <div className="latest-work">Test</div>
+                </div>
+                <div className="column2">
+                    <div className="latest-work">Test2</div>
+                </div>
+                <div className="column2">
+                    <div className="latest-work">Test</div>
+                </div>
+                <div className="column2">
+                    <div className="latest-work">Test</div>
+                </div>
+                <div className="column2">
+                    <div className="latest-work">Test</div>
+                </div>
+                <div className="column2">
+                    <div className="latest-work">Test</div>
+                </div>
+            </div>
+
+
+
+            {/* <div className="container white-font">
                 <div className="portfolio-work">
                     <div className="portfolio-column">
                         <div className="sticky">
@@ -70,7 +97,7 @@ function HomeServices() {
                         </NavLink>
                     </div>
                 </div>
-            </div >
+            </div > */}
         </section >
     )
 }
