@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import WorkProject from './WorkProject';
 // import Animation
 // import { motion } from "framer-motion";
 // import components
@@ -21,7 +22,7 @@ function HomeServices() {
             </div>
             <div className="container">
                 <div className="column2">
-                    <div className="latest-work">Test</div>
+                    <WorkProject />
                 </div>
                 <div className="column2">
                     <div className="latest-work">Test2</div>
