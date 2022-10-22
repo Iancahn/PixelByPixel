@@ -199,6 +199,10 @@ h3.section-title-white span:after {
     cursor: pointer;
 }
 
+.grid-item a {
+    text-decoration: none;
+}
+
 .project-outbox:hover {
     opacity: 100;
 }
@@ -235,6 +239,12 @@ h3.section-title-white span:after {
     margin-top: 3em;
 }
 
+.centered2 {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 3em;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -262,8 +272,8 @@ h3.section-title-white span:after {
 
 footer {
     color: $pixel-white;
-    padding: 5em 0;
-    background-color: $pixel-darkBlue;
+    padding: 6em 0;
+    background-color: $pixel-black;
     border-top: 15px solid $pixel-yellow;
 }
 
@@ -339,7 +349,7 @@ footer h4 {
 
 .footer-btn {
     color: $pixel-white;
-    background-color: $pixel-darkBlue;
+    background-color: $pixel-black;
     border: 1px solid $pixel-white;
     padding: 0.8em 1.6em;
     font-size: 1rem;

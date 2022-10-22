@@ -26,95 +26,107 @@ function HomeServices() {
             <div className="grid-out-container">
                 <div class="grid-container">
                     <div class="grid-item">
-                        <div className="grid-item-background"
-                            style={{
-                                backgroundImage: `url(${fresca})`,
-                                height: '280px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <WorkProject
-                                title="Designing a new exciting brand identity for Fresca Farms"
-                                projectDescription="Graphic and Brand Design"
-                            />
-                        </div>
+                        <a href="https://www.google.com" target="_blank">
+                            <div className="grid-item-background"
+                                style={{
+                                    backgroundImage: `url(${fresca})`,
+                                    height: '280px',
+                                    backgroundSize: 'cover',
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundPosition: 'center',
+                                }}>
+                                <WorkProject
+                                    title="Designing a new exciting brand identity for Fresca Farms"
+                                    projectDescription="Graphic and Brand Design"
+                                />
+                            </div>
+                        </a>
                     </div>
                     <div class="grid-item">
-                        <div className="grid-item-background"
-                            style={{
-                                backgroundImage: `url(${steakshop})`,
-                                height: '280px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <WorkProject
-                                title="Built a E-Commerce website for Steakshop to sell more online"
-                                projectDescription="Wordpress WooCommerce Design"
-                            />
-                        </div>
+                        <a href="https://www.google.com" target="_blank">
+                            <div className="grid-item-background"
+                                style={{
+                                    backgroundImage: `url(${steakshop})`,
+                                    height: '280px',
+                                    backgroundSize: 'cover',
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundPosition: 'center',
+                                }}>
+                                <WorkProject
+                                    title="Built a E-Commerce website for Steakshop to sell more online"
+                                    projectDescription="Wordpress WooCommerce Design"
+                                />
+                            </div>
+                        </a>
                     </div>
                     <div class="grid-item">
-                        <div className="grid-item-background"
-                            style={{
-                                backgroundImage: `url(${jaco})`,
-                                height: '280px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <WorkProject
-                                title="Builing a digital presence for a great graphic designer"
-                                projectDescription="Wordpress Month to Month"
-                            />
-                        </div>
+                        <a href="https://www.google.com" target="_blank">
+                            <div className="grid-item-background"
+                                style={{
+                                    backgroundImage: `url(${jaco})`,
+                                    height: '280px',
+                                    backgroundSize: 'cover',
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundPosition: 'center',
+                                }}>
+                                <WorkProject
+                                    title="Builing a digital presence for a great graphic designer"
+                                    projectDescription="Wordpress Month to Month"
+                                />
+                            </div>
+                        </a>
                     </div>
 
                     <div class="grid-item">
-                        <div className="grid-item-background"
-                            style={{
-                                backgroundImage: `url(${huweliksfokus})`,
-                                height: '280px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <WorkProject
-                                title="Helping Huweliksfokus reach married couples in need of help"
-                                projectDescription="Wordpress WooCommerce Design"
-                            />
-                        </div>
+                        <a href="https://www.google.com" target="_blank">
+                            <div className="grid-item-background"
+                                style={{
+                                    backgroundImage: `url(${huweliksfokus})`,
+                                    height: '280px',
+                                    backgroundSize: 'cover',
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundPosition: 'center',
+                                }}>
+                                <WorkProject
+                                    title="Helping Huweliksfokus reach married couples in need of help"
+                                    projectDescription="Wordpress WooCommerce Design"
+                                />
+                            </div>
+                        </a>
                     </div>
                     <div class="grid-item">
-                        <div className="grid-item-background"
-                            style={{
-                                backgroundImage: `url(${cycad})`,
-                                height: '280px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <WorkProject
-                                title="Built a new member-only website for Cycad Estate"
-                                projectDescription="Wordpress Oxygen3 Design"
-                            />
-                        </div>
+                        <a href="https://www.google.com" target="_blank">
+                            <div className="grid-item-background"
+                                style={{
+                                    backgroundImage: `url(${cycad})`,
+                                    height: '280px',
+                                    backgroundSize: 'cover',
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundPosition: 'center',
+                                }}>
+                                <WorkProject
+                                    title="Built a new member-only website for Cycad Estate"
+                                    projectDescription="Wordpress Oxygen3 Design"
+                                />
+                            </div>
+                        </a>
                     </div>
                     <div class="grid-item">
-                        <div className="grid-item-background"
-                            style={{
-                                backgroundImage: `url(${nty})`,
-                                height: '280px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <WorkProject
-                                title="Redesigning a old website for NTY Steelworks Polokwane"
-                                projectDescription="Wordpress Elementor Design"
-                            />
-                        </div>
+                        <a href="https://www.google.com" target="_blank">
+                            <div className="grid-item-background"
+                                style={{
+                                    backgroundImage: `url(${nty})`,
+                                    height: '280px',
+                                    backgroundSize: 'cover',
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundPosition: 'center',
+                                }}>
+                                <WorkProject
+                                    title="Redesigning a old website for NTY Steelworks Polokwane"
+                                    projectDescription="Wordpress Elementor Design"
+                                />
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
