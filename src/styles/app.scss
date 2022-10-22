@@ -40,7 +40,6 @@ body {
     background-color: $pixel-white;
     font: 100% $font-stack;
     color: $pixel-black;
-    line-height: 1.6;
 }
 
 section {
@@ -142,6 +141,18 @@ h3.section-title-white span:after {
     margin: auto;
 }
 
+.grid-out-container {
+    margin: auto;
+    width: 60%;
+}
+
+.grid-container {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 15px;
+}
+
 .row {
     display: flex;
     -webkit-align-items: center;
@@ -150,7 +161,6 @@ h3.section-title-white span:after {
 
 .portfolio-padding {
     margin-top: 3em;
-
 }
 
 .column {
@@ -175,8 +185,14 @@ h3.section-title-white span:after {
 }
 
 .latest-work {
-    width: 35vw;
-    background-color: #EFFF06;
+    margin: 0;
+    padding: 0;
+}
+
+.latest-work img {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
 }
 
 .centered {

@@ -1,14 +1,14 @@
 import React from 'react';
 
 // import images
-import nty from '../assets/nty-steel.jpg';
 
-function WorkProject() {
+
+function WorkProject(props) {
     return (
         <div className="latest-work">
-            <img src={nty} alt="Some of our latest work at Pixel By Pixel" />
+            <h2>{props.title}</h2>
+            <p>{props.projectDescription}</p>
         </div>
-
     )
 }
 

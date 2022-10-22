@@ -3,15 +3,16 @@ import { NavLink } from "react-router-dom";
 import WorkProject from './WorkProject';
 // import Animation
 // import { motion } from "framer-motion";
+import { filterProps } from 'framer-motion';
 // import components
 
 // import images
-import nty from '../assets/nty-website-design.jpg';
-import jaco from '../assets/jaco-terblanche-website-design.jpg';
-import steakshop from '../assets/steakshop-portfolio.jpg';
-import huweliksfokus from '../assets/huweliksfokus-website-development.jpg';
-import galaxydoors from '../assets/galaxy-doors-website-development.jpg';
-import cycad from '../assets/cycad-estate-websitedesign.jpg';
+import nty from '../assets/nty-steel.jpg';
+import jaco from '../assets/nty-steel.jpg';
+import steakshop from '../assets/nty-steel.jpg';
+import huweliksfokus from '../assets/nty-steel.jpg';
+import galaxydoors from '../assets/nty-steel.jpg';
+import cycad from '../assets/nty-steel.jpg';
 
 function HomeServices() {
     return (
@@ -20,12 +21,59 @@ function HomeServices() {
                 <h3 className="section-title-yellow"><span>Recent Projects</span></h3>
                 <p>Some of our most recent digital marketing projects that we've launched.</p>
             </div>
-            <div className="container">
-                <div className="column2">
+            <div className="grid-out-container">
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div style={{ backgroundImage: `url(${nty})` }}>
+                            {/* <div style={{ backgroundColor: 'red' }}> */}
+                            <WorkProject
+                                title="Test the title"
+                                projectDescription="Test the description"
+                            />
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <WorkProject
+                            img={nty}
+                            title="Test the title2"
+                            projectDescription="Test the description"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <WorkProject
+                            img={nty}
+                            title="Test the title3"
+                            projectDescription="Test the description"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <WorkProject
+                            img={nty}
+                            title="Test the title4"
+                            projectDescription="Test the description"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <WorkProject
+                            img={nty}
+                            title="Test the title5"
+                            projectDescription="Test the description"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <WorkProject
+                            img={nty}
+                            title="Test the title6"
+                            projectDescription="Test the description"
+                        />
+                    </div>
+
+                </div>
+                {/* <div className="column2">
                     <WorkProject />
                 </div>
                 <div className="column2">
-                    <div className="latest-work">Test2</div>
+                    <div className="latest-work"><WorkProject /></div>
                 </div>
                 <div className="column2">
                     <div className="latest-work">Test</div>
@@ -38,7 +86,7 @@ function HomeServices() {
                 </div>
                 <div className="column2">
                     <div className="latest-work">Test</div>
-                </div>
+                </div> */}
             </div>
 
 
