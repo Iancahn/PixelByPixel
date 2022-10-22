@@ -12,9 +12,9 @@ import Calltoaction from '../components/Calltoaction';
 function AboutUs() {
     return (
         <div>
-            <div className="gabout-us-header">
+            <div className="about-us-header">
                 <div className="container2">
-                    <ServiceHeader title="This is the About Us title that should be a bit longer" type="THIS IS ALLCAPS" />
+                    <ServiceHeader title="This is the About Us title that should be a bit longer" type="LEARN EVEN MORE ABOUT US" />
                 </div>
             </div>
             <section>

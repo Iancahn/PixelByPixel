@@ -28,12 +28,12 @@ function Footer() {
                     <div className="column-three quick-links">
                         <div>
                             <h4><span style={{ textDecoration: "underline" }}>Quick Links</span></h4>
-                            <li><NavLink className="" to="/">Home</NavLink></li>
-                            <li><NavLink className="" to="/monthtomonth">Month To Month</NavLink></li>
-                            <li><NavLink className="" to="/webdesign">Website Design</NavLink></li>
-                            <li><NavLink className="" to="/graphicdesign">Graphic Design</NavLink></li>
-                            <li><NavLink className="" to="/aboutus">About Us</NavLink></li>
-                            <li><NavLink className="" to="/contact">Contact Us</NavLink></li>
+                            <li><NavLink className="footer-links" to="/">Home</NavLink></li>
+                            <li><NavLink className="footer-links" to="/monthtomonth">Month To Month</NavLink></li>
+                            <li><NavLink className="footer-links" to="/webdesign">Website Design</NavLink></li>
+                            <li><NavLink className="footer-links" to="/graphicdesign">Graphic Design</NavLink></li>
+                            <li><NavLink className="footer-links" to="/aboutus">About Us</NavLink></li>
+                            <li><NavLink className="footer-links" to="/contact">Contact Us</NavLink></li>
                         </div>
                     </div>
                     <div className="column-three">
