@@ -7,12 +7,13 @@ import { filterProps } from 'framer-motion';
 // import components
 
 // import images
+import fresca from '../assets/fresca-farms.jpg';
+import steakshop from '../assets/steakshop-butchery.jpg';
+import jaco from '../assets/jaco-design.jpg';
+import huweliksfokus from '../assets/huweliksfokus-consulting.jpg';
+import cycad from '../assets/cycad-estate.jpg';
 import nty from '../assets/nty-steel.jpg';
-import jaco from '../assets/nty-steel.jpg';
-import steakshop from '../assets/nty-steel.jpg';
-import huweliksfokus from '../assets/nty-steel.jpg';
-import galaxydoors from '../assets/nty-steel.jpg';
-import cycad from '../assets/nty-steel.jpg';
+//import FontAwesome
 import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
 
 function HomeServices() {
@@ -27,29 +28,15 @@ function HomeServices() {
                     <div class="grid-item">
                         <div className="grid-item-background"
                             style={{
-                                backgroundImage: `url(${nty})`,
+                                backgroundImage: `url(${fresca})`,
                                 height: '280px',
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat',
                                 backgroundPosition: 'center',
                             }}>
                             <WorkProject
-                                title="Test the title"
-                                projectDescription="Test the description"
-                            />
-                        </div>
-                    </div> <div class="grid-item">
-                        <div className="grid-item-background"
-                            style={{
-                                backgroundImage: `url(${jaco})`,
-                                height: '280px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <WorkProject
-                                title="Test the title"
-                                projectDescription="Test the description"
+                                title="Designing a new exciting brand identity for Fresca Farms"
+                                projectDescription="Graphic and Brand Design"
                             />
                         </div>
                     </div>
@@ -63,11 +50,27 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }}>
                             <WorkProject
-                                title="Test the title"
-                                projectDescription="Test the description"
+                                title="Built a E-Commerce website for Steakshop to sell more online"
+                                projectDescription="Wordpress WooCommerce Design"
                             />
                         </div>
                     </div>
+                    <div class="grid-item">
+                        <div className="grid-item-background"
+                            style={{
+                                backgroundImage: `url(${jaco})`,
+                                height: '280px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <WorkProject
+                                title="Builing a digital presence for a great graphic designer"
+                                projectDescription="Wordpress Month to Month"
+                            />
+                        </div>
+                    </div>
+
                     <div class="grid-item">
                         <div className="grid-item-background"
                             style={{
@@ -78,23 +81,8 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }}>
                             <WorkProject
-                                title="Test the title"
-                                projectDescription="Test the description"
-                            />
-                        </div>
-                    </div>
-                    <div class="grid-item">
-                        <div className="grid-item-background"
-                            style={{
-                                backgroundImage: `url(${galaxydoors})`,
-                                height: '280px',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat',
-                                backgroundPosition: 'center',
-                            }}>
-                            <WorkProject
-                                title="Test the title"
-                                projectDescription="Test the description"
+                                title="Helping Huweliksfokus reach married couples in need of help"
+                                projectDescription="Wordpress WooCommerce Design"
                             />
                         </div>
                     </div>
@@ -108,13 +96,29 @@ function HomeServices() {
                                 backgroundPosition: 'center',
                             }}>
                             <WorkProject
-                                title="Test the title"
-                                projectDescription="Test the description"
+                                title="Built a new member-only website for Cycad Estate"
+                                projectDescription="Wordpress Oxygen3 Design"
+                            />
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div className="grid-item-background"
+                            style={{
+                                backgroundImage: `url(${nty})`,
+                                height: '280px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <WorkProject
+                                title="Redesigning a old website for NTY Steelworks Polokwane"
+                                projectDescription="Wordpress Elementor Design"
                             />
                         </div>
                     </div>
                 </div>
-                {/* <div className="column2">
+            </div>
+            {/* <div className="column2">
                     <WorkProject />
                 </div>
                 <div className="column2">
@@ -132,7 +136,7 @@ function HomeServices() {
                 <div className="column2">
                     <div className="latest-work">Test</div>
                 </div> */}
-            </div>
+
 
 
 
