@@ -13,6 +13,7 @@ import steakshop from '../assets/nty-steel.jpg';
 import huweliksfokus from '../assets/nty-steel.jpg';
 import galaxydoors from '../assets/nty-steel.jpg';
 import cycad from '../assets/nty-steel.jpg';
+import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
 
 function HomeServices() {
     return (
@@ -24,8 +25,28 @@ function HomeServices() {
             <div className="grid-out-container">
                 <div class="grid-container">
                     <div class="grid-item">
-                        <div style={{ backgroundImage: `url(${nty})` }}>
-                            {/* <div style={{ backgroundColor: 'red' }}> */}
+                        <div className="grid-item-background"
+                            style={{
+                                backgroundImage: `url(${nty})`,
+                                height: '280px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <WorkProject
+                                title="Test the title"
+                                projectDescription="Test the description"
+                            />
+                        </div>
+                    </div> <div class="grid-item">
+                        <div className="grid-item-background"
+                            style={{
+                                backgroundImage: `url(${jaco})`,
+                                height: '280px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
                             <WorkProject
                                 title="Test the title"
                                 projectDescription="Test the description"
@@ -33,41 +54,65 @@ function HomeServices() {
                         </div>
                     </div>
                     <div class="grid-item">
-                        <WorkProject
-                            img={nty}
-                            title="Test the title2"
-                            projectDescription="Test the description"
-                        />
+                        <div className="grid-item-background"
+                            style={{
+                                backgroundImage: `url(${steakshop})`,
+                                height: '280px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <WorkProject
+                                title="Test the title"
+                                projectDescription="Test the description"
+                            />
+                        </div>
                     </div>
                     <div class="grid-item">
-                        <WorkProject
-                            img={nty}
-                            title="Test the title3"
-                            projectDescription="Test the description"
-                        />
+                        <div className="grid-item-background"
+                            style={{
+                                backgroundImage: `url(${huweliksfokus})`,
+                                height: '280px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <WorkProject
+                                title="Test the title"
+                                projectDescription="Test the description"
+                            />
+                        </div>
                     </div>
                     <div class="grid-item">
-                        <WorkProject
-                            img={nty}
-                            title="Test the title4"
-                            projectDescription="Test the description"
-                        />
+                        <div className="grid-item-background"
+                            style={{
+                                backgroundImage: `url(${galaxydoors})`,
+                                height: '280px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <WorkProject
+                                title="Test the title"
+                                projectDescription="Test the description"
+                            />
+                        </div>
                     </div>
                     <div class="grid-item">
-                        <WorkProject
-                            img={nty}
-                            title="Test the title5"
-                            projectDescription="Test the description"
-                        />
+                        <div className="grid-item-background"
+                            style={{
+                                backgroundImage: `url(${cycad})`,
+                                height: '280px',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat',
+                                backgroundPosition: 'center',
+                            }}>
+                            <WorkProject
+                                title="Test the title"
+                                projectDescription="Test the description"
+                            />
+                        </div>
                     </div>
-                    <div class="grid-item">
-                        <WorkProject
-                            img={nty}
-                            title="Test the title6"
-                            projectDescription="Test the description"
-                        />
-                    </div>
-
                 </div>
                 {/* <div className="column2">
                     <WorkProject />
