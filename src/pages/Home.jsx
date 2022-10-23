@@ -8,6 +8,7 @@ import HomeServices from '../components/HomeServices';
 import HomeClients from '../components/HomeClients';
 import HomeWork from '../components/HomeWork';
 import HomeAbout from '../components/HomeAbout';
+import Calltoaction from '../components/Calltoaction';
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
             <HomeClients />
             <HomeWork />
             <HomeAbout />
+            <Calltoaction />
         </div>
     )
 }
