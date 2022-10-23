@@ -3,7 +3,7 @@ import React from 'react';
 // import { motion } from "framer-motion";
 // import components
 
-import aboutus from '../assets/pixelbypixel-mission-statement.jpg';
+import aboutus from '../assets/coffee.mp4';
 
 function HomeAbout() {
     return (
@@ -13,7 +13,7 @@ function HomeAbout() {
                 <p className="centered2" >Learn more about the team behind our success.</p>
                 <div className="row">
                     <div className="column">
-                        <img src={aboutus} alt="about the PixelByPixel team" className="column-img" />
+                        <video src={aboutus} alt="about the PixelByPixel team" className="column-video" autoPlay loop muted />
                     </div>
                     <div className="column">
                         <p>Since we first started designing websites way back in early 2014,
